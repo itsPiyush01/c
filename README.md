@@ -1,5 +1,5 @@
 
-# Quickly Compile and Run Your Test C Code       
+# Quickly Compile and Test Your C Code       
 <br />
 <p align="center">
     <img alt="img" height="120" src="./icons8-c-programming-48.svg">
@@ -149,7 +149,7 @@ c <filename>.c [args ...]
 
 ## ⭐️ Contribute
 
-If you want to say thank you and/or support the active development of example:
+If you want to say thank you and/or support the active development of **Quickly Compile and Test Your C Code.**
 
 1. Add a GitHub Star to the project.
 2. Tweet about the project on your Twitter.
