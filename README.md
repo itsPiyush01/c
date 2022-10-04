@@ -1,5 +1,5 @@
 
-# Quickly Compile and Your Test C Code       
+# Quickly Compile and Run Your Test C Code       
 <br />
 <p align="center">
     <img alt="img" height="120" src="./icons8-c-programming-48.svg">
