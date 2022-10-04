@@ -35,7 +35,7 @@ gcc sum.c -o sum
 
 ### If Using the Script:
 ```bash
-c sum 10 20 
+c sum.c 10 20 
 30 # output of the code 
 
 ```
