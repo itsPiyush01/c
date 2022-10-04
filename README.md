@@ -57,7 +57,7 @@ gcc sum.c
 
 ## 💢 The problem with the Existing Solution 1 :
 Takes less time to write but still needs to **write 2 lines to compile and test the source code and it always replaces the executing a.out and the name
-"a.out" file is itself an unstable name of the executable file..**
+"a.out" file is itself a bad name for your executable file.**
 
 
 
