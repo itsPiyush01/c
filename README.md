@@ -1,5 +1,5 @@
 
-# Quickly Compile and Your Test C Code       
+# Quickly Compile and Test Your C Code       
 <br />
 <p align="center">
     <img alt="img" height="120" src="./icons8-c-programming-48.svg">
@@ -35,7 +35,7 @@ gcc sum.c -o sum
 
 ### If Using the Script:
 ```bash
-c sum 10 20 
+c sum.c 10 20 
 30 # output of the code 
 
 ```
@@ -57,7 +57,7 @@ gcc sum.c
 
 ## 💢 The problem with the Existing Solution 1 :
 Takes less time to write but still needs to **write 2 lines to compile and test the source code and it always replaces the executing a.out and the name
-"a.out" file is itself an unstable name of the executable file..**
+"a.out" file is itself a bad name for your executable file.**
 
 
 
@@ -149,7 +149,7 @@ c <filename>.c [args ...]
 
 ## ⭐️ Contribute
 
-If you want to say thank you and/or support the active development of example:
+If you want to say thank you and/or support the active development of **Quickly Compile and Test Your C Code.**
 
 1. Add a GitHub Star to the project.
 2. Tweet about the project on your Twitter.
