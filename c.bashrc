@@ -31,6 +31,10 @@
 #  along with this program; if not, write to the Piyush Ranjan.                #
 #  Email:developer.piyushranjan@gmail.com                                      #
 #                                                                              #
+# USE AT YOUR OWN RISK The developer of this script will not be responsible    #
+# for any kind of damages .                                                      #
+#                                                                              #
+#                                                                              #                                                            
 ################################################################################
 ################################################################################
 ################################################################################
@@ -54,6 +58,18 @@ shift
 full_filename=$(basename -- "$arg0")
 
 filename="${full_filename%.*}"
-gcc $filename.c -o $filename
-./$filename "$@"
 
+gcc $filename.c -o $filename
+compiled_ouput=$(gcc $filename.c -o $filename 2>&1 )
+# echo $compiled_ouput
+
+ERROR_REGEX="(error:)"
+
+# https://stackoverflow.c`om/questions/18709962/regex-matching-in-a-bash-if-statement
+if [[ ~$compiled_ouput =~ $ERROR_REGEX ]];
+then
+   echo "ERROR"
+else
+   # echo "NO ERROR"
+   ./$filename "$@"
+fi
